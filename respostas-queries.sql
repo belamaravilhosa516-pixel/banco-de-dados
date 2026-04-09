@@ -8,7 +8,7 @@
 -- SELECT compositor, composicao, id FROM musicas WHERE id >= 47 AND id <= 123;
 
 -- 4 - Selecione todos os registros com todos os campos da tabela musicas, onde o compositor não seja nulo, o tempo seja menor que 5 minutos e o nome do compositor seja diferente de Bach.
--- SELECT * FROM musicas WHERE compositor is NOT NULL AND tempo < 300 AND compositor <> Bach;
+-- SELECT * FROM musicas WHERE compositor is NOT NULL AND tempo < 300 AND compositor <> 'Bach';
 
 -- 5 - Selecione as composições e o tempo de cada composição, de todos os registros da tabela musicas, onde o compositor seja Mozart ou Bach.
 -- SELECT composicao , tempo FROM musicas WHERE compositor = 'Mozart' OR compositor = 'Bach';
